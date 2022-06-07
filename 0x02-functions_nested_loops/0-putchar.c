@@ -1,21 +1,22 @@
-#include "main.h"
 #include <stdio.h>
-#include <time.h>
+#include "main.h"
+
 /**
- * main - Entry point
+ * main - Print "Holberton"
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	char *sh = "_putchar";
+	int i = 0;
+	char c[8] = "_putchar";
 
-	while (*sh)
+	while (i <= 8)
 	{
-		_putchar(*sh);
-		sh++;
+		_putchar(c[i]);
+		i++;
 	}
 	_putchar('\n');
-
 	return (0);
 }
