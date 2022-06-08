@@ -5,7 +5,7 @@
  * Return:void
  */
 
-void 9-times_table.c(void)
+void print_times_table(void)
 {
 
 int a = 0;
