@@ -1,6 +1,6 @@
 /**
  * File: 104-fibonacci.c
- * Auth: Nikkita R
+ * Auth: Nikki R
  */
 
 #include <stdio.h>
